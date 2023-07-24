@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="result">
+      <h4>Your Result</h4>
+      <div class="score">
+        <h1>76<span class="block">of 100</span></h1>
+      </div>
+      <p>
+        Great
+        <span class="block">
+          You scored higher than 65% of the people who have taken these tests.
+        </span>
+      </p>
+    </div>
+
+    <div class="summary">
+      <h2>Summary</h2>
+      <ul>
+        <li id="red">
+          <span class="element">
+            <img src="/assets/images/icon-reaction.svg" alt="" width="17" height="17">
+            <span class="text red">
+              Reaction
+            </span>
+          </span>
+          <span class="marks">
+            80&nbsp;&nbsp;<span class="pale">/ 100</span>
+          </span>
+        </li>
+
+        <li id="yellow">
+          <span class="element">
+            <img src="/assets/images/icon-memory.svg" alt="" width="17" height="17">
+            <span class="text yellow">
+              Memory
+            </span>
+          </span>
+          <span class="marks">
+            92&nbsp;&nbsp;<span class="pale">/ 100</span>
+          </span>
+        </li>
+
+        <li id="green">
+          <span class="element">
+            <img src="/assets/images/icon-verbal.svg" alt="" width="17" height="17">
+            <span class="text green">
+              Verbal
+            </span>
+          </span>
+          <span class="marks">
+            61&nbsp;&nbsp;<span class="pale">/ 100</span>
+          </span>
+        </li>
+
+        <li id="blue">
+          <span class="element">
+            <img src="/assets/images/icon-visual.svg" alt="" width="17" height="17">
+            <span class="text blue">
+              Visual
+            </span>
+          </span>
+          <span class="marks">
+            72&nbsp;&nbsp;<span class="pale">/ 100</span>
+          </span>
+        </li>
+      </ul>
+      <button id="continue">Continue</button>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
