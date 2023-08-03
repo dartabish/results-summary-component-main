@@ -29,15 +29,16 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Hanken Grotesk', sans-serif;
-    max-width: 350px;
+    width: 100vw;
     height: 100vh;
-    margin: 0 auto;
-    overflow: hidden;
 }
 
 .result {
-    width: 300px;
+    width: 315px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -50,7 +51,7 @@ body {
 }
 
 .result h4 {
-    padding: 2rem 0;
+    padding: 1rem 0;
     color: hsl(241, 100%, 89%);
     letter-spacing: 1px;
 }
@@ -83,14 +84,15 @@ body {
     color: white;
     padding-top: 0;
     letter-spacing: 1px;
+    padding: 1rem 0;
 }
 
 p span {
     font-weight: 600;
     font-size: 14px;
    color: hsl(241, 77%, 76%);
-   padding: 0.45rem 2rem 2rem;
    letter-spacing: normal;
+   padding-top: 1rem;
 }
 
 .summary {
@@ -174,19 +176,14 @@ p span {
     background-color: hsl(241, 81%, 54%);
 }
 
-@media only screen and (min-width:1440px) {
+@media only screen and (min-width:768px) {
     body{
         width: 100%;
         max-width: unset;
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-    }
-
-    .score{
-        width: 180px;
-        height: 180px;
-        padding: 2rem;
     }
 
     .result{
@@ -197,6 +194,12 @@ p span {
 
     .result p {
         padding-top: 1rem;
+    }
+
+    .score{
+        width: 180px;
+        height: 180px;
+        padding: 2rem;
     }
 
     .summary {
