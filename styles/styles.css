@@ -207,8 +207,8 @@ p span {
         padding-top: 2rem;
         background-color: white;
         box-shadow: 8px 8px 15px rgb(202, 194, 194);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 
 }
